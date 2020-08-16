@@ -46,9 +46,13 @@ console.log(posisiPekerjaan)
 //operasi matematika
 #6
 let a = 25 + 10;
+console.log(a);
 let b = 100 * 2;
+console.log(b);
 let c = 99 / 2;
+console.log(c);
 let d = 99 % 2;
+console.log(d);
 
 
 
