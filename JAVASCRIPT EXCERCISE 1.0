@@ -34,13 +34,14 @@ console.log("Freelancer")
 //Variabel data nomor 1 lalu panggil dan tampilkan dengan console.log
 #5
 let nama = "Krisna Andika";
+console.log(nama);
 let daerahAsal = "Bogor";
+console.log(daerahAsal);
 let tanggalLahir ="26 Juli 2000";
+console.log(tanggalLahir);
 let posisiPekerjaan = "Frelancer";
-console.log(nama) 
-consol.log(daerahAsal)
-console.log(tanggalLahir)
-console.log(posisiPekerjaan)
+console.log(posisiPekerjaan);
+
 
 
 //operasi matematika
