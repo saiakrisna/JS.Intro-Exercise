@@ -1,0 +1,75 @@
+
+//program menghayal Menggunakan IF-ELSE IF Divisi dan tugas di startup
+#1
+let saya;
+if(saya == "Investor"){
+    console.log("ngopi tiap hari sambil mantau saham");
+} else if(saya =="CEO"){
+   console.log("melebarkan saya jadi stasuf presiden dan blok semua TV nasional");
+}   else if(saya == "HRD"){
+        console.log(" input keluarga saya ke posisi penting perusahaan dan commit permanen");
+}   else { 
+         console.log("DEADWOOD");
+	  }
+    
+//Conditional, Program pembanding nilai
+#2 
+let a = prompt("Angka Pertama :");
+let b = prompt("Angka Kedua");
+if (a>b) {
+    console.log("Nilai pertama yang terbesar");
+} else if (a<b) {
+    console.log("Nilai kedua yang terbesar");
+} else if (a==b){
+    console.log("Kedua angka memiliki nilai yang sama")
+} else {
+    console.log("Input yang anda masukan tidak valid")
+}
+
+
+//cek nama hari berdasarkan angka dengan SWITCH CASE
+#3
+let angka = prompt("Input Angka");
+let hari = "";
+
+switch(angka){
+    case "1":
+        hari = "Senin";
+        break;
+    case "2":
+        hari = "Selasa";
+        break;
+    case "3":
+        hari = "Rabu";
+        break;
+    case "4":
+        hari = "Kamis";
+        break;
+    case "5":
+        hari = "Jum'at";
+        break;
+    case "6":
+        hari = "Sabtu";
+        break
+    case "7":
+        hari = "Minggu"; 
+        break;
+    default :
+        console.log("salah input")
+}
+    
+
+//game sederhana dengan SWITCH CASE
+#4
+let char;
+switch(char){
+	case "UP" :
+		console.log("Karakter berjalan ke atas");
+	case "RIGHT" :
+		console.log("Karakter berjalan ke kanan");
+	case "BOTTOM" :
+		console.log("Karakter berjalan ke bawah:);
+	case "LEFT" :
+		console.log("Karakter berjalan ke kiri:);
+
+
