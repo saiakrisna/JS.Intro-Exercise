@@ -1,0 +1,54 @@
+//Console log data diri
+#1
+console.log("Krisna Andika")
+console.log("Bogor")
+console.log("26 Juli 2000")
+console.log("Freelancer")
+
+//Interaksi pada user
+#2
+prompt("Nama :")
+prompt("Asal Negara:")
+
+confirm("Apakah data yang diisi sudah benar?")
+alert("terima kasih sudah mengisi form")
+
+
+//single comments pada data nomor 1
+#3
+//console.log("Krisna Andika")
+console.log("Bogor")
+console.log("26 Juli 2000")
+console.log("Freelancer")
+
+//Multiple comments pada nomor 2
+#4
+/*
+console.log("Krisna Andika")
+console.log("Bogor")
+console.log("26 Juli 2000")
+console.log("Freelancer")
+*/
+
+
+//Variabel data nomor 1 lalu panggil dan tampilkan dengan console.log
+#5
+let nama = "Krisna Andika";
+let daerahAsal = "Bogor";
+let tanggalLahir ="26 Juli 2000";
+let posisiPekerjaan = "Frelancer";
+console.log(nama) 
+consol.log(daerahAsal)
+console.log(tanggalLahir)
+console.log(posisiPekerjaan)
+
+
+//operasi matematika
+#6
+let a = 25 + 10;
+let b = 100 * 2;
+let c = 99 / 2;
+let d = 99 % 2;
+
+
+
